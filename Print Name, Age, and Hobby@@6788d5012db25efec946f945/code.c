@@ -10,7 +10,7 @@ int main(){
     scanf("%s",&str2);
     scanf("%d",&age);
 
-    printf("Name: %s\nAge: %d\nHobby: %s",str1,age,str2);
+    printf("Name: %s/nAge: %d/nHobby: %s",str1,age,str2);
 
 
     return 0;
