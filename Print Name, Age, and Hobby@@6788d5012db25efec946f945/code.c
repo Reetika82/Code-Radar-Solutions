@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
+
 int main(){
     char str1[100];
     char str2[100];
@@ -14,4 +14,5 @@ int main(){
 
 
     return 0;
+    
 }
