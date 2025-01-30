@@ -1,3 +1,11 @@
+#include<stdio.h>
+int main(){
+    int main(){
+        char ch;
+        scanf("%s",ch);
+    }
+    return 0;
+}
 // #include <stdio.h>
 
 // char* welcome() {
@@ -9,9 +17,3 @@
 //     return 0;
 // }
 
-#include<stdio.h>
-int main(){
-    char ch;
-    scanf("%c",ch);
-    return 0;
-}
