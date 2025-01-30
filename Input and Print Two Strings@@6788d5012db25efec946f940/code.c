@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    char str1[5],str2[5];
+    char str1[],str2[];
     scanf("%s",&str1);
     scanf("%s",&str2);
 
