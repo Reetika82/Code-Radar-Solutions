@@ -3,8 +3,9 @@
 
 int main(){
     char str1[10];
-    char str2[10];
     int age;
+    char str2[10];
+    
 
     scanf("%s",&str1);
     scanf("%s",&str2);
