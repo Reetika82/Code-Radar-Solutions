@@ -2,9 +2,9 @@
 
 int main(){
     char a1;
-    scanf("%d",&a1);
+    scanf("%c",&a1);
 
-    if char.isupper printf("Uppercase");
-    else if char.islower printf("Lowercase");
+    if isupper(a1) printf("Uppercase");
+    else islower(a1) printf("Lowercase");
     return 0;
 }
