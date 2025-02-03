@@ -7,7 +7,8 @@ int main(){
 
     scanf("%d",&n);
 
-    if (n<0 || n>31) printf("0");
-    else printf("1");
+    if (n<0 || n>31) return 1;
+    bitvalue = (num >> n) & 1;
+    printf("%d",bitvalue);
     return 0;
 }
