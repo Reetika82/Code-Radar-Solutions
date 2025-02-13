@@ -5,9 +5,9 @@ int main(){
     scanf("%f",&a);
 
     if(temperature <= 0 ){
-        printf("Freezing");
+        printf("Freezing\n");
     }else{
-        printf("Above Freezing");
+        printf("Above Freezing\n");
     }
     return 0 ;
 }
