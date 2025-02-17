@@ -4,18 +4,21 @@ int main(){
     int num, flag= 0;
     scanf("%d",&num);
     
-    if (num <= 1){
-        printf("Not Prime");
+    if (num<=2){
+        flag=0;
     }
-
-    for (i = 2; i <= num/2 ;++i){
-        if (num%i == 0){
-            flag = 1;
+    else{
+        for(i=2;i*i<=num;i++){
+            if(num%i==0){
+            flag = 0;
             break;
+            }
         }
     }
 
-    if(flag == 0)
+
+
+    if(flag == 1)
     {
          printf("Prime");
     }
