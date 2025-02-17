@@ -1,6 +1,5 @@
 int main() {
     int num;
-    printf("Enter the vaalue:");
     scanf("%d",&num);
 
     for (int i = 2;i < num ;i++){
