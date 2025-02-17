@@ -15,7 +15,10 @@ int main(){
         }
     }
 
-    if(flag == 0) printf("Prime");
+    if(flag == 0)
+    {
+         printf("Prime");
+    }
     else printf("Not Prime");
     
     return 0;
